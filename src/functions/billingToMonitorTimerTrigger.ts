@@ -54,7 +54,7 @@ const config = {
     resourceGroupName: process.env["RESOURCE_GROUP_NAME"],
     appServicePlanName: process.env["APP_SERVICE_PLAN_NAME"],
     otlpUrl: process.env["OTLP_URL"],
-    // Instrumentation key for the Application Insights resource
+    // Instrumentation key for the Application Insights resource, (you get this from the Azure portal after creating an Application Insights resource)
     iKey: process.env["IKEY"]
 };
 
