@@ -56,9 +56,7 @@ const config = {
     subscriptionId: process.env["SUBSCRIPTION_ID"],
     resourceGroupName: process.env["RESOURCE_GROUP_NAME"],
     appServicePlanName: process.env["APP_SERVICE_PLAN_NAME"],
-    otlpUrl: process.env["OTLP_URL"],
-    // Instrumentation key for the Application Insights resource
-    iKey: process.env["IKEY"]
+    otlpUrl: process.env["OTLP_URL"]
 };
 
 /**
