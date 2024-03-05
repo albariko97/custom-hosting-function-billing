@@ -35,3 +35,4 @@ for local deployment please create the json file: "local.settings.json"  in the 
 ```
 
 # Contribute
+testing
